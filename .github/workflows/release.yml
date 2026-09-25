@@ -13,7 +13,7 @@ jobs:
     steps:
       # 1. Ambil kode sumber dari repositori
       - name: 📥 Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # 2. Siapkan Java Development Kit (JDK) untuk Kotlin
       - name: ☕ Set up JDK 17

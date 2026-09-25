@@ -17,7 +17,7 @@ jobs:
 
       # 2. Siapkan Java Development Kit (JDK) untuk Kotlin
       - name: ☕ Set up JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           java-version: '17'
           distribution: 'temurin'

@@ -1,0 +1,1 @@
+The astronomy or specific algorithm modules using Python/JS are licensed under their respective original developer licenses. Please refer to their original source repositories for full details.

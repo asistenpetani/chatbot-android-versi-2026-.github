@@ -1,0 +1,9 @@
+ASPEK (Asisten Petani Kita) adalah aplikasi asisten agrikultur pintar berbasis AI yang dirancang khusus untuk memandu petani Indonesia dalam mengelola lahan dan meningkatkan produktivitas panen secara optimal.
+
+Fitur Utama:
+- Konsultasi dengan kecerdasan buaatan: Dapatkan saran penanganan hama, jenis pupuk, analisis hara, dan panduan bercocok tanam hiper-lokal berdasar komoditas Anda.
+- Analisis Deteksi Warna Daun via Kamera: Pindai warna daun Anda untuk diagnosis defisiensi unsur hara tanaman secara presisi.
+- Kalkulator Lahan & Pupuk: Hitung takaran pupuk NPK, Urea, Tunggal, serta jatah subsidi e-RDKK dalam hitungan detik.
+- Early Warning System (EWS): Dapatkan peringatan cuaca ekstrem, peringatan tebus pupuk subsidi, dan panduan mitigasi dini bencana langsung di wilayah Anda.
+
+Semua data tersimpan secara aman di dalam perangkat Anda demi privasi optimal dan dapat diakses dengan cepat. Mari bertani lebih cerdas, modern, dan mandiri bersama ASPEK!

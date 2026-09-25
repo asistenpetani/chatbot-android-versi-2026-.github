@@ -1,0 +1,19 @@
+# Abaikan folder dependensi lokal (Docker akan menginstalnya sendiri)
+node_modules/
+
+# Abaikan hasil build lokal
+dist/
+build/
+
+# Abaikan file rahasia dan lingkungan lokal
+.env
+.env.*
+secret.properties
+
+# Abaikan file konfigurasi git dan CI/CD
+.git/
+.github/
+
+# Abaikan catatan dan log
+*.md
+npm-debug.log

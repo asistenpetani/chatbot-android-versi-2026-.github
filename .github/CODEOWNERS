@@ -1,0 +1,14 @@
+# ==============================================================================
+# PROPRIETARY CODEOWNERS FILE
+# ASPEK - Asisten Petani Kita (PT. BERTANI TEKNOLOGI INTELEGENSI)
+# ==============================================================================
+# Seluruh berkas dalam repositori ini dilindungi hak cipta eksklusif.
+# Setiap perubahan ke cabang utama ('main') wajib mendapatkan review & persetujuan
+# dari pemilik tunggal kode sumber.
+
+* @indraoktawan indra.oktawan@gmail.com
+/.github/ @indraoktawan
+/app/ @indraoktawan
+/backend_cloud/ @indraoktawan
+/main.tf @indraoktawan
+/*.sh @indraoktawan

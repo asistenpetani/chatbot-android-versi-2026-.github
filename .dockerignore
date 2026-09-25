@@ -1,0 +1,21 @@
+# Git
+.git
+.gitignore
+
+# Python/Node
+__pycache__/
+*.pyc
+venv/
+env/
+node_modules/
+
+# File lokal & rahasia
+.env
+*.pem
+*.json
+
+# Abaikan file data besar agar tidak masuk image Docker
+# Data ini harus diakses via Firestore/Cloud Storage
+*.csv
+*.xlsx
+data_kios_100mb.xlsx

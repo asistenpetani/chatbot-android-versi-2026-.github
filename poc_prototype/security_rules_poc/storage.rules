@@ -1,0 +1,29 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // POC Aturan Folder Karantina untuk Scanner Keamanan Antivirus
+    match /quarantine/{userId}/{fileName} {
+      
+      // BOLEH UNGGAH: Validasi ketat untuk aplikasi Android.
+      // 1. Harus Login. 2. Maksimal 5MB. 3. Ekstensi file gambar.
+      allow write: if request.auth != null 
+                   && request.auth.uid == userId
+                   && request.resource.size < 5 * 1024 * 1024 
+                   && request.resource.contentType.matches('image/.*');
+                   
+      // Tidak boleh baca (karena masih dikarantina menunggu dipindai sa-security-scanner)
+      allow read: if false;
+    }
+
+    // POC Aturan Folder Bersih
+    match /diagnosis_daun/{userId}/{fileName} {
+      // Petani bisa melihat foto daunnya sendiri (yang sudah disetujui Scanner)
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // Aplikasi Android DILARANG langsung mengunggah ke sini. 
+      // Harus dipindah oleh sa-security-scanner.
+      allow write: if false;
+    }
+  }
+}

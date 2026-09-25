@@ -1,0 +1,1085 @@
+{
+  "penyakit_tanaman": [
+    {
+      "tanaman": "Kakao",
+      "nama_penyakit": "Busuk Buah Kakao (Phytophthora palmivora)",
+      "gejala": [
+        "Adanya bercak cokelat kehitaman pada buah kakao yang dimulai dari ujung atau pangkal buah.",
+        "Bercak tersebut meluas dengan cepat hingga seluruh permukaan buah menjadi busuk dan berwarna hitam.",
+        "Timbul lapisan putih bertepung pada permukaan buah yang membusuk, yang merupakan spora jamur."
+      ],
+      "solusi": [
+        "Lakukan pemangkasan rutin untuk mengurangi kelembapan kebun.",
+        "Sanitasi dengan mengumpulkan dan membuang buah kakao yang terinfeksi jauh dari area kebun.",
+        "Gunakan fungisida berbahan aktif tembaga sesuai dengan dosis anjuran.",
+        "Gunakan klon kakao yang tahan terhadap penyakit busuk buah."
+      ]
+    },
+    {
+      "tanaman": "Kakao",
+      "nama_penyakit": "Vascular Streak Dieback (VSD)",
+      "gejala": [
+        "Daun menguning dengan bercak hijau (green spots) di antara urat daun yang menguning.",
+        "Gugurnya daun pada satu cabang atau ranting tertentu (dieback).",
+        "Bila kulit ranting dikupas, tampak tiga titik kecokelatan pada bekas duduk daun (streak)."
+      ],
+      "solusi": [
+        "Pangkas ranting atau cabang yang terserang hingga 30 cm di bawah bagian yang bergejala.",
+        "Lakukan pemupukan berimbang untuk meningkatkan ketahanan tanaman.",
+        "Tanam bibit kakao klon unggul yang toleran VSD (seperti Sulawesi 1, Sulawesi 2)."
+      ]
+    },
+    {
+      "tanaman": "Padi",
+      "nama_penyakit": "Hawar Daun Bakteri (Kresek)",
+      "gejala": [
+        "Bercak keabu-abuan di sepanjang tepi daun padi.",
+        "Daun menjadi mengkerut, kering, dan layu seperti tersiram air panas (kresek).",
+        "Pada pagi hari, terdapat butiran eksudat bakteri berwarna kuning keemasan pada permukaan daun."
+      ],
+      "solusi": [
+        "Gunakan pupuk nitrogen secara berimbang (jangan berlebihan).",
+        "Atur jarak tanam dengan metode Jajar Legowo untuk mengurangi kelembapan mikro.",
+        "Gunakan varietas tahan seperti Inpari 32 atau Inpari 42."
+      ]
+    }
+  ],
+  "pengetahuanPupuk": {
+    "tabelPupuk": [
+      {
+        "pupuk": "Urea",
+        "sumberHara": "NITROGEN",
+        "kandungan": { "N": 46 }
+      },
+      {
+        "pupuk": "ZA",
+        "sumberHara": "Nitrogen dan sulfur",
+        "kandungan": { "N": 21, "S": 24 }
+      },
+      {
+        "pupuk": "Kieserite",
+        "sumberHara": "Sulfur",
+        "kandungan": { "S": 23, "MgO": 29 }
+      },
+      {
+        "pupuk": "SP 36",
+        "sumberHara": "P2O5",
+        "kandungan": { "P2O5": 36 }
+      },
+      {
+        "pupuk": "Superphos",
+        "sumberHara": "P2O5",
+        "kandungan": { "P2O5": 18 }
+      },
+      {
+        "pupuk": "TSP",
+        "sumberHara": "Transelemen Sulfur dan pospat",
+        "kandungan": { "P2O5": 46 }
+      },
+      {
+        "pupuk": "Rock Phospate",
+        "sumberHara": "Rock pospat",
+        "kandungan": { "P2O5": 28, "CaO": 48 }
+      },
+      {
+        "pupuk": "KCl",
+        "sumberHara": "Kalistrate",
+        "kandungan": { "K2O": 60 }
+      },
+      {
+        "pupuk": "KNO3",
+        "sumberHara": "Nitrogen dan K2O",
+        "kandungan": { "N": 13, "K2O": 46 }
+      },
+      {
+        "pupuk": "ZK",
+        "sumberHara": "Sulfur dan k2O5",
+        "kandungan": { "S": 18, "K2O": 50 }
+      },
+      {
+        "pupuk": "Dolomite",
+        "sumberHara": "MGO DAN COA",
+        "kandungan": { "MgO": 18, "CaO": 30 }
+      }
+    ],
+    "diagnosaVisual": {
+      "jaringanMuda": [
+        {
+          "unsur": "Kalsium (Ca)",
+          "gejala": "Daun baru cacat atau terhambat. Jaringan Muda Daun yang sudah ada tetap."
+        },
+        {
+          "unsur": "Besi (Fe)",
+          "gejala": "Daun muda tumbuh berwarna kuning dan putih dengan urat hijau."
+        },
+        {
+          "unsur": "Kalsium (Ca)",
+          "gejala": "Timbul bagian memutih pada daun."
+        },
+        {
+          "unsur": "Mangan (Mn)",
+          "gejala": "Timbul bintik-bintik kuning dan atau lubang memanjang antara urat-urat daun."
+        }
+      ],
+      "jaringanTua": [
+        {
+          "unsur": "Nitrogen (N)",
+          "gejala": "Daun bagian atas berwarna hijau muda dimana daun bagian bawahnya berwarna kuning. Bagian bawah atau daun lebih tua berwarna kuning dan keriput."
+        },
+        {
+          "unsur": "Kalium (K)",
+          "gejala": "Pada daun muda biasanya menguning di ujung dan tepi. Pada daun tua, timbul bercak-bercak kuning dan bercak-bercak kering/mati."
+        },
+        {
+          "unsur": "Fosfat (P)",
+          "gejala": "Daun-daun cenderung gelap dibandingkan biasanya dan berguguran."
+        },
+        {
+          "unsur": "Magnesium (Mg)",
+          "gejala": "Daun yang lebih rendah menjadi menguning dari luar ke dalam urat-urat tetap hijau."
+        }
+      ],
+      "gejalaLain": [
+        {
+          "unsur": "Kalsium (Ca)",
+          "gejala": "Pertumbuhan terhambat dan tanaman mati dari ujung (akar mundur)."
+        }
+      ]
+    },
+    "profilUnsurHara": [
+      {
+        "nama": "NITROGEN",
+        "simbol": "N",
+        "form": "NO3, NH4+",
+        "fungsi": [
+          "Menyumbang 1-5% dari total bahan kering",
+          "Penyusun asam nukleat, protein, fitohormon, koenzim dan metabolit sekunder",
+          "Penting dalam pembentukan molekul klorofil",
+          "Metabolisme asimilasi C",
+          "Sifat unsur hara ini sangat aktif pada tanaman."
+        ],
+        "dampakDefisiensi": [
+          "Laju pertumbuhan menurun",
+          "Luas daun berkurang",
+          "Berkurangnya jumlah anakan dan biji",
+          "Tunas berkurang: Proporsi akar dominan, proliferasi akar lateral"
+        ],
+        "gejalaDefisiensi": [
+          "Warna hijau pucat",
+          "Tanaman kerdil",
+          "Daun yang lebih tua mengalami klorosis karena N dipindahkan ke jaringan yang lebih muda"
+        ],
+        "toksisitas": [
+          "Daun menjadi hijau pekat, produksi daun banyak dan batang muda patah, rentan serangan organisme pengganggu tanaman (OPT)",
+          "Penambahan N berlebih pada tanaman menyebabkan tanaman berpotensi mengalami defisiensi K dan Cu karena N antagonis terhadap K dan Cu.",
+          "Selain itu menyebabkan jaringan menjadi berair (sukulen) dan rentan kerusakan akibat serangan hama/penyakit"
+        ]
+      },
+      {
+        "nama": "CALCIUM (KALSIUM)",
+        "simbol": "Ca",
+        "form": "Ca2+",
+        "fungsi": [
+          "Komponen penyusun dinding sel",
+          "Menstabilkan membran sel dengan mengatur fosfolipid and protein",
+          "Mengatur pemanjangan rambut akar dan tabung polen",
+          "Komponen sekresi lendir di tudung akar",
+          "Pembentukan callose saat terjadi paparan ion beracun dan terjadi luka",
+          "Respon adaptif terhadap pembekuan, suhu rendah, dan anaerobiosis",
+          "Keseimbangan ion dalam vakuola sel",
+          "Penyusun kalsium pektat di lamela tengah"
+        ],
+        "dampakDefisiensi": [
+          "Disintegrasi dinding sel yang lebih cepat oleh poligalakturonase",
+          "Kerentanan yang lebih tinggi terhadap patogen jamur dan bakteri",
+          "Mengurangi kepadatan dan umur buah serta sayuran",
+          "Gangguan pemanjangan akar karena pembelahan sel terbatas"
+        ],
+        "gejalaDefisiensi": [
+          "Tingkat pertumbuhan berkurang",
+          "Jaringan muda dapat terlipat ke atas dan nekrosis pada defisiensi yang parah",
+          "Laju transpirasi organ-organ tanaman rendah sehingga memicu nekrosis dan busuk pangkal buah",
+          "Mempercepat penuaan buah dan sayuran"
+        ],
+        "toksisitas": [
+          "Kelebihan kalsium (Ca) menyebabkan potensi defisiensi K, Mg, P, Mn, Zn, B, dan Fe"
+        ]
+      },
+      {
+        "nama": "POTASSIUM (KALIUM)",
+        "simbol": "K",
+        "form": "K+",
+        "mobilitas": "Sangat mobile",
+        "fungsi": [
+          "Zat terlarut anorganik utama dalam pengaturan osmotik pada sel dan jaringan",
+          "Pembukaan/penutupan stomata dan niktinasti",
+          "Meningkatkan toleransi/resistensi cekaman biotik dan abiotik tanaman",
+          "Mengatur proses distribusi dalam floem dan laju alirannya",
+          "Penyeimbangan pH dan ion dalam sitoplasma dan kloroplas",
+          "Komponen sintesis protein yaitu RuBiP karboksilase dan nitrat reductase"
+        ],
+        "dampakDefisiensi": [
+          "Penurunan laju fotosintesis and peningkatan laju respirasi",
+          "Luas daun dan transportasi asimilat berkurang",
+          "Lambatnya pembukaan/penutupan stomata",
+          "Dehidrasi lebih cepat",
+          "Akumulasi gula dalam daun tua",
+          "Gangguan pematangan buah seperti tomat"
+        ],
+        "gejalaDefisiensi": [
+          "Daun dapat menjadi dehidrasi dan/atau berkerut sepanjang hari",
+          "Ruas yang lebih pendek",
+          "Tepi daun klorosis dimulai pada daun tua",
+          "Nekrosis jaringan pada kasus defisiensi parah"
+        ],
+        "toksisitas": [
+          "Kelebihan unsur Kalium dalam tanah menghambat penyerapan hara kalsium (Ca) dan magnesium (Mg) serta menghambat serapan Boron (B)"
+        ]
+      },
+      {
+        "nama": "MANGANESE",
+        "simbol": "Mn",
+        "form": "Mn2+",
+        "fungsi": [
+          "Berperan penting dalam reaksi redoks",
+          "Komponen enzim seperti superoksida dismutase, oksalat oksidase",
+          "Kofaktor enzim",
+          "Penting dalam siklus asam trikarboksilat (TCA)",
+          "Penting untuk tanaman C, dimana PEP karboksikinase berfungsi dalam dekarboksilasi oksaloasetat dan asimilasi CO2",
+          "Biosintesis lignin dan lipid",
+          "Kofaktor dari sebuah enzim yang mengendalikan proses fotolisa air di fotosistem 2 yang menyebabkan terjadinya sintesis O2"
+        ],
+        "dampakDefisiensi": [
+          "Penurunan kandungan karbohidrat non struktural",
+          "Menghambat pertumbuhan akar",
+          "Penurunan resistensi pembekuan dan patogen yang menginfeksi akar",
+          "Berkurangnya jumlah butir dan kesuburan serbuk sari",
+          "Peningkatan degradasi IAA (kehilangan dominasi akar)"
+        ],
+        "gejalaDefisiensi": [
+          "Klorosis interveinal pada daun yang baru berkembang.",
+          "Mengurangi tingkat pertumbuhan",
+          "Perubahan warna biji legume dan deformasi"
+        ],
+        "toksisitas": [
+          "Muncul ditandai bintik-bintik coklat pada daun dewasa atau daun muda yang berkerut",
+          "Mn terjadi pada pH rendah dan menyebabkan potensi defisiensi Fe"
+        ]
+      },
+      {
+        "nama": "ZINC",
+        "simbol": "Zn",
+        "form": "Zn2+",
+        "fungsi": [
+          "Berperan sebagai struktur dan katalitik dalam reaksi enzimatik",
+          "Replikasi dan ekspresi genetik yaitu RNA polimerase dan protein Zn-metallo",
+          "Pengikatan protein",
+          "Komponen alkohol dehydrogenase dalam respon tanaman yang tergenang air",
+          "Terlibat dalam pengikatan CO2 melalui karbonat anhydrase",
+          "Komponen dari Cu-Zn superoksida dismutase",
+          "Dibutuhkan untuk menyusun ribosom, pertumbuhan organ polen, membran, serta melindungi lipid dari kerusakan oksidatif"
+        ],
+        "dampakDefisiensi": [
+          "Peningkatan aktivitas RNA",
+          "Akumulasi karbohidrat",
+          "Metabolisme IAA yang terganggu",
+          "Peningkatan proses oksidasi serta eksudasi zat terlarut pada akar",
+          "Mengurangi kesuburan serbuk sari"
+        ],
+        "gejalaDefisiensi": [
+          "Klorosis interveinal pada daun dewasa yang mengembang penuh",
+          "Lesi nekrotik pada daun tua",
+          "Warna hijau pucat antara vena timbal sentral dan sekunder ('daun belang')",
+          "Tanaman kerdil dengan daun kecil",
+          "Ruas yang lebih pendek (rosetting)"
+        ],
+        "toksisitas": [
+          "Kelebihan Zn menyebabkan potensi defisiensi Besi (Fe)"
+        ]
+      },
+      {
+        "nama": "IRON (BESI)",
+        "simbol": "Fe",
+        "form": "Fe2+",
+        "fungsi": [
+          "Terlibat dalam reaksi reduksi-oksidasi, sintesis klorofil",
+          "Komponen heme protein seperti sitokrom, katalase, peroksidase leghemoglobin",
+          "Terlibat dalam detoksifikasi ROS, polimerisasi",
+          "Komponen protein fe-S yaitu ferredoxin, superoxide, dismutase, aconitase",
+          "Komponen lipoxygenase, yang mendukung pembentukan asam lemak membran sel"
+        ],
+        "dampakDefisiensi": [
+          "Penurunan tingkat fotosintesis",
+          "Konsentrasi klorofil rendah",
+          "Menurunkan jumlah ribosom dan kandungan protein (yaitu rubisco)",
+          "Pengurangan ukuran kloroplas dan membrane tilakoid",
+          "Risiko fotoinhibisi dan kerusakan foto oksidatif yang lebih tinggi",
+          "Menghambat pemanjangan akar"
+        ],
+        "gejalaDefisiensi": [
+          "Tingkat pertumbuhan berkurang",
+          "Klorosis interveinal dimulai pada daun yang baru terbentuk"
+        ],
+        "toksisitas": [
+          "Toksisitas besi pada lahan basah dengan munculnya 'bronzing' daun.",
+          "Terjadi terutama pada tanah bereaksi masam (pH rendah) dan menyebabkan defisiensi P"
+        ]
+      },
+      {
+        "nama": "MAGNESIUM",
+        "simbol": "Mg",
+        "form": "Mg2+",
+        "fungsi": [
+          "Komponen atom inti dalam molekul klorofil",
+          "Elemen penghubung dalam agregasi ribosom",
+          "Meningkatkan efisiensi enzimatik dalam mengikat air sebagai faktor katalitik",
+          "Vacuolar Mg2+ berperan dalam keseimbangan ion dan pengaturan turgor sel",
+          "Diperlukan untuk aktivitas polimerase asam nukleat dan nuclease",
+          "Berperan dalam fotofosforilasi ATP",
+          "Menyeimbangkan pH di stroma selama aktivitas kloroplas yang meningkatkan aktivitas RuBP karboksilase"
+        ],
+        "dampakDefisiensi": [
+          "Berpengaruh terhadap ukuran, struktur, dan fungsi kloroplas",
+          "Penurunan tingkat fotosintesis",
+          "Akumulasi zat pati di daun karena gangguan ekspor fotosintesis",
+          "Kecepatan pertumbuhan berkurang",
+          "Mengurangi penyerapan dan distribusi sukrosa dalam floem"
+        ],
+        "gejalaDefisiensi": [
+          "Klorosis interveinal pada daun dewasa yang mengembang penuh",
+          "Daun berubah keputihan dan mengalami absisi karena kekurangan hara",
+          "Menyebabkan kandungan protein N daun yang lebih rendah",
+          "Pertumbuhan akar berkurang"
+        ],
+        "toksisitas": []
+      },
+      {
+        "nama": "SULPHUR",
+        "simbol": "S",
+        "form": "SO4 2-, SO2",
+        "mobilitas": "cukup bervariasi",
+        "fungsi": [
+          "Komponen asam amino esensial yaitu metionin dan sistein",
+          "Bagian dari glutathione peptide yang dapat mengurangi stres oksidatif dan toleransi logam berat",
+          "Struktur penyusun koenzim dan gugus prostetik dan gugus -SH",
+          "Bagian dari koenzim biotin yang membantu dalam sintesis asam lemak",
+          "Komponen metabolit sekunder sebagai alliins dan glucosinolates berperan sebagai pengendali Tingkat kepedasan, rasa, dan aroma, misalnya pada bawang merah, bawang putih, cabai, dan tanaman sejenisnya.",
+          "Pembentukan bintil pada legume",
+          "Pengendali metabolisme karbohidrat terutama sukrosa, misal penentu rendemen gula pada tebu"
+        ],
+        "dampakDefisiensi": [
+          "Tunas berkurang: proporsi akar dominan, proliferasi akar lateral",
+          "Penurunan konduktivitas akar",
+          "Fotosintesis dan konduktivitas stomata berkurang",
+          "Luas daun berkurang"
+        ],
+        "gejalaDefisiensi": [
+          "Hijau pucat hingga warna klorosis yang terdistribusi secara merata di tanaman",
+          "Pada kacang-kacangan, bintilnya lebih kecil dan jumlahnya berkurang"
+        ],
+        "toksisitas": [
+          "Daun mudah gugur saat kelebihan hara sulfur"
+        ]
+      },
+      {
+        "nama": "COPPER",
+        "simbol": "Cu",
+        "form": "Cu2+",
+        "mobilitas": "tidak bergerak",
+        "fungsi": [
+          "Mengkatalisis reaksi redoks",
+          "Komponen dari 100 enzim seperti askorbat, polifenol dan diamina oksidase",
+          "Komponen plastosianin dan Cu-Zn superoksida dismutase",
+          "Komponen Sitokrom C oksidase, terlibat dalam transpot elektron mitokondria",
+          "Biosintesis lignin, alkaloid, dan zat melatonik (reaksi terhadap luka dan infeksi) serta penting dalam respon etilen"
+        ],
+        "dampakDefisiensi": [
+          "Pembungaan dan pematangan tertunda",
+          "Pembentukan serbuk sari terganggu",
+          "Tingkat fotosintesis dan sintesis karbohidrat yang lebih rendah",
+          "Mengurangi fiksasi symbiosis N2 dan lignifikasi",
+          "Menghambat pembentukan akar"
+        ],
+        "gejalaDefisiensi": [
+          "Daun muda klorosis (pemutihan lebih lanjut) dan nekrosis",
+          "Pertumbuhan terhambat akibat ruas batang abnormal (rosetting)",
+          "Pertumbuhan terhambat",
+          "Hilangnya dominasi spesial"
+        ],
+        "toksisitas": [
+          "Toksisitas Cu berpotensi menyebabkan defisiensi Mn"
+        ]
+      },
+      {
+        "nama": "BORON",
+        "simbol": "B",
+        "form": "B(OH)3",
+        "mobilitas": "hanya bergerak pada tanaman pengangkut karbohidrat polihidroksi",
+        "fungsi": [
+          "Biosintesis dan penyusun dinding sel serta pembentukan jaringan pektik",
+          "Penyusun dan mendukung fungsi membran",
+          "Metabolisme IAA",
+          "Diperlukan dalam asosiasi rhizobium dan aktivitas meristematik",
+          "Metabolisme fenol dan biosintesis lignin",
+          "Diperlukan untuk pertumbuhan dan perkembangan tabung polen"
+        ],
+        "dampakDefisiensi": [
+          "Akumulasi fenol dan pembentukan ROS",
+          "Penghentian pemanjangan akar dan pucuk",
+          "Penghambatan dominasi apikal",
+          "Mengurangi ekspansi daun, serta produksi dan kesuburan serbuk sari",
+          "Gagalnya pembungaan atau pembentukan buah",
+          "Kerentanan yang lebih tinggi terhadap keracunan aluminum (Al)",
+          "Defisiensi B dapat terjadi jika kelebihan pasokan N, K, dan Ca"
+        ],
+        "gejalaDefisiensi": [
+          "Gagalnya pertumbuhan apikal",
+          "Ruas lebih pendek (tampilan lebat atau roset)",
+          "Daun baru terbentuk cacat",
+          "Batang retak atau berlubang",
+          "Tepi daun yang terbakar atau hangus"
+        ],
+        "toksisitas": []
+      },
+      {
+        "nama": "MOLYBDENUM",
+        "simbol": "Mo",
+        "form": "MoO4 2-",
+        "sifat": "Mo sinergis dengan N and Cu, sehingga peningkatan ketersediaan Mo menyebabkan kenaikan ketersediaan N and Cu",
+        "fungsi": [
+          "Kofaktor dari enzim nitrat reductase yang mengendalikan reduksi nitrat menjadi ammonium",
+          "Terlibat dalam biosintesis vitamin",
+          "Katalisator dalam reaksi transfer elektron dalam enzim seperti xantin dehidrogenase, aldehida oksigenase dan sulfit reduktase",
+          "Penting untuk pengurangan dan penyerapan nitrat",
+          "Kofaktor dari enzim nitrogenase yang terlibat dalam proses fiksasi N2 dari udara menjadi ammonium"
+        ],
+        "dampakDefisiensi": [
+          "Hambatan pertumbuhan tanaman akibat kegagalan reduksi nitrat menjadi ammonium (dipicu oleh rendahnya aktivitas nitrat reduktase)",
+          "Konsentrasi klorofil rendah",
+          "Konsentrasi ABA yang lebih rendah, menyebabkan rendahnya toleransi terhadap pembekuan, genangan air salin dan kekeringan",
+          "Keterlambatan munculnya malai dan mekarnya bunga"
+        ],
+        "gejalaDefisiensi": [
+          "Klorosis pada daun muda",
+          "Deformitas daun muda yaitu whiptail",
+          "Ruas yang lebih pendek",
+          "Klorosis lokal dan nekrosis di sepanjang tulang utama daun dewasa"
+        ],
+        "toksisitas": [
+          "Berpotensi meracuni tanaman jika berlebihan, meskipun gejala visualnya sangat jarang terlihat"
+        ]
+      }
+    ]
+  },
+  "kearifan_lokal": {
+    "sabuk_orion": "Bintang Sabuk orion dikenal dalam budaya Jawa sebagai bagian dari Lintang Waluku atau penanda musim tanam telah dimulai."
+  },
+  "referensi_agronomi_padi": {
+    "peningkatan_hasil_komponen_ptt": [
+      {
+        "teknik": "Pemupukan Spesifik Lokasi (Speklok)",
+        "peningkatan_persen": 24.7
+      },
+      {
+        "teknik": "Jajar Legowo",
+        "peningkatan_persen": 18.7
+      },
+      {
+        "teknik": "Kecukupan Air",
+        "peningkatan_persen": 14.6
+      },
+      {
+        "teknik": "Pengendalian Hama Terpadu (PHT)",
+        "peningkatan_persen": 11.2
+      },
+      {
+        "teknik": "Varietas Unggul Baru (VUB) Spesifik Lokasi (Speklok)",
+        "peningkatan_persen": 8.9
+      }
+    ],
+    "potensi_hasil_varietas_unggul": [
+      {
+        "nama_varietas": "Siliwangi",
+        "potensi_ton_per_hektar": 11.74
+      },
+      {
+        "nama_varietas": "Padjadjaran",
+        "potensi_ton_per_hektar": 11.03
+      },
+      {
+        "nama_varietas": "Inpari 42 GSR",
+        "potensi_ton_per_hektar": 10.58
+      },
+      {
+        "nama_varietas": "Cakrabuana",
+        "potensi_ton_per_hektar": 10.20
+      },
+      {
+        "nama_varietas": "Inpari 43 GSR",
+        "potensi_ton_per_hektar": 9.02
+      }
+    ]
+  },
+  "ketersediaan_hara_berdasarkan_ph_tanah": [
+    {
+      "ph": 4.5,
+      "ketersediaan_persen": { "Nitrogen_N": 30, "Fosfor_P": 20, "Kalium_K": 40, "Besi_Fe": 100 },
+      "analisa": "Tanah sangat masam. Aluminium aktif tinggi, Fosfor terikat kuat.",
+      "rekomendasi": "Wajib pemberian Kapur Dolomit untuk menaikkan pH secara bertahap."
+    },
+    {
+      "ph": 5.0,
+      "ketersediaan_persen": { "Nitrogen_N": 50, "Fosfor_P": 30, "Kalium_K": 60, "Besi_Fe": 100 },
+      "analisa": "Tanah masam. Efisiensi pupuk kimia rendah.",
+      "rekomendasi": "Dolomit dosis sedang dan penggunaan pupuk organik untuk menahan hara."
+    },
+    {
+      "ph": 5.5,
+      "ketersediaan_persen": { "Nitrogen_N": 80, "Fosfor_P": 45, "Kalium_K": 80, "Besi_Fe": 100 },
+      "analisa": "Kondisi mulai membaik. Kebutuhan pupuk dasar sudah mulai efektif.",
+      "rekomendasi": "Gunakan NPK dengan imbuhan bahan organik."
+    },
+    {
+      "ph": 6.0,
+      "ketersediaan_persen": { "Nitrogen_N": 100, "Fosfor_P": 60, "Kalium_K": 100, "Besi_Fe": 80 },
+      "analisa": "Hampir ideal. Ketersediaan Nitrogen dan Kalium sudah optimal.",
+      "rekomendasi": "Pemupukan rutin sesuai jadwal."
+    },
+    {
+      "ph": 6.5,
+      "ketersediaan_persen": { "Nitrogen_N": 100, "Fosfor_P": 100, "Kalium_K": 100, "Besi_Fe": 60 },
+      "analisa": "Kondisi Emas! Seluruh unsur hara utama tersedia maksimal.",
+      "rekomendasi": "Pertahankan pH ini dengan pemupukan berimbang."
+    },
+    {
+      "ph": 7.0,
+      "ketersediaan_persen": { "Nitrogen_N": 100, "Fosfor_P": 100, "Kalium_K": 100, "Besi_Fe": 50 },
+      "analisa": "Netral sempurna.",
+      "rekomendasi": "Optimalkan dengan unsur mikro (Zn, B, Cu) karena Besi mulai menurun."
+    },
+    {
+      "ph": 7.5,
+      "ketersediaan_persen": { "Nitrogen_N": 100, "Fosfor_P": 80, "Kalium_K": 100, "Besi_Fe": 40 },
+      "analisa": "Tanah mulai cenderung basa. Risiko defisiensi Besi mulai muncul.",
+      "rekomendasi": "Gunakan pupuk yang bersifat masam (seperti ZA) untuk membantu menetralkan pH."
+    },
+    {
+      "ph": 8.0,
+      "ketersediaan_persen": { "Nitrogen_N": 100, "Fosfor_P": 70, "Kalium_K": 100, "Besi_Fe": 30 },
+      "analisa": "Tanah alkali (basa). Besi dan unsur mikro lainnya terkunci.",
+      "rekomendasi": "Gunakan bahan organik/bio-aktifator untuk memperbaiki biologi tanah.",
+      "langkah_pemulihan": [
+        "1. Setelah panen selesai, aplikasikan pupuk organik atau hayati pembawa mikroba aktif untuk memperbaiki struktur tanah dan membantu menurunkan pH.",
+        "2. Setelah tanah mulai pulih, aplikasikan pupuk kimia majemuk secara terukur untuk menyuplai kekurangan Fosfor dan Zinc."
+      ]
+    }
+  ],
+  "referensi_komoditas_tanaman": [
+    {
+      "nama_umum": "Gandum",
+      "nama_ilmiah": "Triticum aestivum L.",
+      "syarat_tumbuh": {
+        "suhu_optimal": "20-25°C",
+        "curah_hujan": "350-1250 mm/tahun",
+        "ketinggian": ">1000m dpl atau dataran rendah kering"
+      },
+      "catatan_khusus": "Optimal untuk lahan kering."
+    },
+    {
+      "nama_umum": "Sagu",
+      "nama_ilmiah": "Metroxylon sagu",
+      "syarat_tumbuh": {
+        "curah_hujan": "2500-3500 mm/tahun",
+        "ketinggian": "Cocok di lahan rawa/gambut"
+      },
+      "kondisi_tanah": {
+        "ph_tanah": "3.5-6.5",
+        "karakteristik": "Agak masam"
+      },
+      "rekomendasi_pupuk": "Tinggi Kalium (untuk pati & akar) dan Kalsium (untuk dinding sel)."
+    },
+    {
+      "nama_umum": "Porang",
+      "nama_ilmiah": "Amorphophallus muelleri",
+      "syarat_tumbuh": {
+        "suhu_optimal": "22-35°C (Jika >35°C rawan terbakar)",
+        "ketinggian": "100-600m dpl"
+      },
+      "kondisi_tanah": {
+        "ph_tanah": "6-7 (Netral)",
+        "karakteristik": "Gembur, organik tinggi"
+      },
+      "rekomendasi_pupuk": "Organik (6 bulan sekali) + Urea 100kg/ha + NPK 200kg/ha."
+    },
+    {
+      "nama_umum": "Sorgum",
+      "nama_ilmiah": "Sorghum bicolor L.",
+      "syarat_tumbuh": {
+        "curah_hujan": "50-100 mm/bulan (pada 2 bulan pertama)",
+        "catatan": "Sangat tahan kekeringan"
+      },
+      "kondisi_tanah": {
+        "ph_tanah": "6.0-7.5",
+        "karakteristik": "Tidak cocok di tanah Ultisol/Masam"
+      },
+      "rekomendasi_pupuk": "Wajib organik 500kg/ha tiap panen. Jika tanah masam: Beri Kapur (diamkan 2-3 days) -> Pupuk Organik (diamkan 7-10 days) -> Urea 100kg/ha + NPK 250kg/ha."
+    },
+    {
+      "nama_umum": "Talas",
+      "nama_ilmiah": "Colocasia esculenta L.",
+      "syarat_tumbuh": {
+        "suhu_optimal": "21-27°C",
+        "curah_hujan": "1750 mm/tahun",
+        "ketinggian": "250-1100m dpl",
+        "kebutuhan_cahaya": "Matahari penuh (minimal 11 jam/hari)"
+      },
+      "kondisi_tanah": {
+        "ph_tanah": "5.5-6.5 (Jika pH < 5, beri kapur 1 ton/ha)"
+      }
+    },
+    {
+      "nama_umum": "Kacang Hijau",
+      "nama_ilmiah": "Phaseolus radiatus",
+      "syarat_tumbuh": {
+        "suhu_optimal": "Suhu panas",
+        "ketinggian": "Sekitar 500m dpl"
+      },
+      "kondisi_tanah": {
+        "ph_tanah": "5.8 (Jika pH < 5, butuh kapur)"
+      }
+    },
+    {
+      "nama_umum": "Kacang Tunggak",
+      "nama_ilmiah": "Vigna unguiculata L.Walp",
+      "syarat_tumbuh": {
+        "curah_hujan": "<1500 mm/tahun",
+        "ketinggian": "Optimal 500m dpl"
+      },
+      "kondisi_tanah": {
+        "karakteristik": "Adaptasi sangat luas"
+      }
+    },
+    {
+      "nama_umum": "Kacang Tanah",
+      "nama_ilmiah": "Arachis hypogaea",
+      "syarat_tumbuh": {
+        "suhu_optimal": "25-35°C",
+        "kebutuhan_cahaya": "Matahari penuh (wajib)"
+      },
+      "kondisi_tanah": {
+        "suhu_tanah": "Suhu tanah penentu perkecambahan (ideal >18°C)"
+      }
+    },
+    {
+      "nama_umum": "Gadung",
+      "nama_ilmiah": "Dioscorea hispida",
+      "syarat_tumbuh": {
+        "curah_hujan": "760-1050 mm/tahun",
+        "ketinggian": "845-1500m dpl",
+        "kebutuhan_cahaya": "Sinar matahari >10 jam/hari"
+      },
+      "catatan_khusus": "Mengandung racun (diperlukan pengolahan khusus sebelum dikonsumsi)."
+    },
+    {
+      "nama_umum": "Ubi Jalar",
+      "nama_ilmiah": "Ipomoea batatas L.",
+      "catatan_khusus": "Komoditas unggulan dengan produktivitas >30 ton/ha.",
+      "varietas_unggul": ["Daya", "Prambanan", "Borobudur", "Mendut", "Kalasan"]
+    }
+  ],
+  "fungsiDasarNPK": {
+    "Nitrogen (N)": "Menyusun asam amino, nukleotida, klorofil, dan asam nukleat. Menjadikan tanaman lebih hijau dan mempercepat pertumbuhan.",
+    "Fosfor (P)": "Menyimpan dan menyalurkan energi metabolisme. Merangsang pembentukan buah, memacu perkembangan akar, dan meningkatkan daya tahan.",
+    "Kalium (K)": "Mengaktivasi enzim metabolisme, membantu penyerapan air, dan menyalurkan hasil asimilasi daun ke seluruh jaringan tanaman."
+  },
+  "katalogPupuk": [
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "NPK 12-12-17-2 (NPK Pelangi)",
+      "komposisi": { "N": 12, "P2O5": 12, "K2O": 17, "MgO": 2 },
+      "peruntukan": "Tanaman perkebunan penghasil buah (kelapa sawit, jeruk, durian, cengkeh, mangga, lada).",
+      "keunggulan": "Kandungan Kalium tinggi untuk meningkatkan kualitas/kuantitas buah, mudah diserap, meningkatkan ketahanan terhadap penyakit.",
+      "dosis": [
+        "Kelapa Sawit (umur 1 th): 1.5 Kg/pohon/6 bulan",
+        "Kelapa Sawit (umur 9-13 th): 3.5 Kg/pohon/6 bulan",
+        "Cengkeh (umur 3-4 th): 250 gram/pohon/6 bulan",
+        "Lada (umur >4 th): 600 gram/tanaman/66 bulan"
+      ]
+    },
+    {
+      "kategori": "Organik / Hayati",
+      "nama": "Pupuk Hayati Ecofert (BIO Aktifator Kompos)",
+      "komposisi": "Mikrob fiksasi nitrogen, pelarut fosfat, zeolit, gipsum, asam humat.",
+      "caraPakai": "Tabur di tanah sawah, diamkan 1 minggu untuk menghidupkan mikroba.",
+      "keunggulan": "Meningkatkan ketersediaan hara N dan P, memacu pertumbuhan tanaman, menghemat pupuk NPK hingga 25%."
+    },
+    {
+      "kategori": "Organik / Bioaktivator",
+      "nama": "Biodekomposer Biodex (Bioaktivator Kompos Limbah)",
+      "komposisi": "Mikrob perombak bahan organik, zeolite, serbuk kayu, gambut.",
+      "caraPakai": "Campur dengan bahan organik, tutup selama 10 hari. Tidak perlu pembalikan.",
+      "keunggulan": "Mempercepat dekomposisi limbah organik padat, cocok untuk iklim tropis."
+    },
+    {
+      "kategori": "Kimia Tunggal",
+      "nama": "Urea / Pupuk Urea Prill Daun Buah",
+      "komposisi": { "N": 46 },
+      "keunggulan": "Mudah larut, daun lebih hijau, buah lebih lebat, mempercepat pertumbuhan.",
+      "spesifikasi": "Butiran 1-3.35 mm, warna putih, anti-caking."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "NPK 15-10-15-4 (PUPUK PETROCANE)",
+      "komposisi": { "N": 15, "P2O5": 10, "K2O": 15, "S": 4, "Mg": 1, "Ca": 1, "Mikro": "Zn, B, Cu, Mn" },
+      "peruntukan": "Tanaman Tebu.",
+      "keunggulan": "Suplai hara makro primer dan sekunder, meningkatkan anakan dan tinggi tanaman tebu."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "NPK 15-15-15-9 + Zinc (NPK PHONSKA PLUS)",
+      "komposisi": { "N": 15, "P2O5": 15, "K2O": 15, "S": 9, "Zn": "2.000 ppm" },
+      "peruntukan": "Segala jenis tanaman.",
+      "keunggulan": "Meningkatkan efisiensi pemupukan, meningkatkan mutu dan jumlah panen, mencegah kerdil."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "NPK 16-16-16 (NPK PETRO NITRATu / NPK Mutiara)",
+      "komposisi": { "N": 16, "P2O5": 16, "K2O": 16, "MgO": 1.5, "CaO": 5 },
+      "peruntukan": "Fase Vegetatif / Tanaman umbi dan buah.",
+      "keunggulan": "Cepat larut dalam air, unsur hara seimbang, sangat sesuai untuk pertumbuhan awal."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "NP 20-20-13 (PETRO NIPHOS)",
+      "komposisi": { "N": 20, "P2O5": 20, "S": 13 },
+      "peruntukan": "Fase vegetatif tanaman dan sayuran daun.",
+      "keunggulan": "Sangat baik untuk fase pertumbuhan vegetatif, tidak higroskopis, mudah larut."
+    },
+    {
+      "kategori": "Kimia Tunggal",
+      "nama": "ZA (ZA PETRO / Amonium Sulfat)",
+      "komposisi": { "N": 20.8, "S": 23.8 },
+      "peruntukan": "Tanaman tebu, bawang merah, dll.",
+      "keunggulan": "Tanaman lebih hijau, meningkatkan mutu hasil panen (warna, aroma, rasa)."
+    },
+    {
+      "kategori": "Kimia Majemuk Generatif",
+      "nama": "NPK Mutiara Grower 15-9-20",
+      "komposisi": { "N": 15, "P2O5": 9, "K2O": 20, "MgO": 1.5, "S": 2, "TE": "Boron, Zinc, Mangan" },
+      "peruntukan": "Fase pembungaan dan pembuahan (generatif).",
+      "keunggulan": "Kandungan Kalium tinggi mempercepat pembentukan buah & kualitas bunga."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "NPK BASF 15-15-15 (Nitrophoska)",
+      "komposisi": { "N": 15, "P2O5": 15, "K2O": 15, "MgO": 0.5, "CaO": 6 },
+      "keunggulan": "Kandungan Kalsium tinggi menstabilkan dinding sel tanaman."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "NPK BASF 17-17-17 (Nitrophoska Cap Kuda Sakti)",
+      "komposisi": { "N": 17, "P2O5": 17, "K2O": 17 },
+      "keunggulan": "Hara sangat tinggi berasal dari Ammonium Nitrate, larut instan."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "Pupuk Pak Tani 15-15-15",
+      "komposisi": { "N": 15, "P2O5": 15, "K2O": 15 },
+      "keunggulan": "Kualitas stabil untuk tanaman holtikultura."
+    },
+    {
+      "kategori": "Kimia Majemuk",
+      "nama": "Pupuk Pak Tani 16-16-16",
+      "komposisi": { "N": 16, "P2O5": 16, "K2O": 16 },
+      "keunggulan": "Unsur hara makro seimbang dipadu mikro lengkap."
+    }
+  ],
+  "faq_dan_jadwal_pemupukan": [
+    {
+      "pertanyaan": "Pupuk apa yang cocok untuk tanaman padi atau bagaimana cara pemupukan padi yang benar?",
+      "jawaban": "Untuk lahan 1 hektar, gunakan pola 10 zak Petroganik, 6 zak NPK Phonska, dan 4 zak Urea. Petroganik digunakan sebagai pupuk dasar sebelum tanam. Urea diberikan 12 hari setelah tanam (HST), dan NPK Phonska 25 hari setelah tanam (HST)."
+    },
+    {
+      "pertanyaan": "Kapan waktu terbaik untuk memupuk jagung?",
+      "jawaban": "Pemupukan pertama dilakukan pada umur 7-10 hari setelah tanam (HST) menggunakan Urea. Pemupukan kedua dilakukan pada 28-30 HST menggunakan NPK Phonska."
+    }
+  ],
+  "pupuk_subsidi": [
+    {
+      "nama": "Urea (Subsidi)",
+      "tipe": "Pupuk Tunggal",
+      "deskripsi": "Pupuk tunggal Nitrogen (N) 46%, butiran pink, untuk pertumbuhan vegetatif (daun)."
+    },
+    {
+      "nama": "NPK Phonska (Subsidi)",
+      "tipe": "Pupuk Majemuk",
+      "deskripsi": "Pupuk majemuk NPK dengan komposisi 15-15-12 untuk pemupukan tanaman pangan."
+    },
+    {
+      "nama": "NPK Formula Khusus Kakao (Subsidi)",
+      "tipe": "Pupuk Majemuk",
+      "deskripsi": "Pupuk Majemuk dengan komposisi formula 14-12-16-4, cocok untuk semua jenis tanaman, khususnya kakao, untuk memacu pertumbuhan akar, bunga, dan buah."
+    }
+  ],
+  "pestisida_insektisida": [
+    {
+      "nama": "Sidabas 500 EC",
+      "tipe": "Insektisida Kontak",
+      "target": "Walang Sangit, Wereng, ulat pada padi dan jagung."
+    },
+    {
+      "nama": "Sidazeb 80 WP",
+      "tipe": "Fungisida Kontak",
+      "target": "Penyakit jamur seperti busuk daun dan bercak ungu."
+    },
+    {
+      "nama": "MINDA 720 SL",
+      "tipe": "Herbisida Sistemik",
+      "bahan_aktif": "2,4-D Dimetil Amina 720 g/l",
+      "target": "Gulma berdaun lebar dan rumput pada Jagung, Karet, Padi, Tebu."
+    },
+    {
+      "nama": "SIDAMIN 865 SL",
+      "tipe": "Herbisida Sistemik",
+      "bahan_aktif": "2,4-D dimetilamina 865 g/l",
+      "target": "Gulma berdaun lebar pada Kakao, Karet, Kopi, Padi, Tebu, Teh."
+    },
+    {
+      "nama": "SIDAFOS 480 SL",
+      "tipe": "Herbisida Sistemik",
+      "bahan_aktif": "IPA Glifosat 480 g/l",
+      "target": "Gulma pada persiapan lahan Kakao, Karet, Kelapa Sawit, Kopi, dan Padi."
+    },
+    {
+      "nama": "SIDAMEC 20 EC",
+      "tipe": "Insektisida Racun Kontak & Lambung",
+      "bahan_aktif": "Abamektin 20 g/l",
+      "target": "Hama Trips, Kutu daun, Pengorok daun pada Kentang, Cabai, Kubis, Padi."
+    },
+    {
+      "nama": "FIPROS 55 SC",
+      "tipe": "Insektisida Racun Kontak & Lambung",
+      "bahan_aktif": "Fipronil 55 g/l",
+      "target": "Kutu Daun, Trips, Rayap, Penggerek Batang, Wereng Coklat pada Cabai, Kelapa, Padi."
+    },
+    {
+      "nama": "SIDAFUR 3 GR",
+      "tipe": "Insektisida Sistemik (Granular)",
+      "bahan_aktif": "Karbofuran 3%",
+      "target": "Penggerek Batang, Nematoda, Wereng, Perusak akar pada Cengkeh, Kakao, Kentang, Padi, Tebu."
+    },
+    {
+      "nama": "FENOSIDA 255 EC",
+      "tipe": "Fungisida Protektif",
+      "bahan_aktif": "Difenokonazol 255 g/l",
+      "target": "Hawar Pelepah, Bercak Coklat, Busuk Batang pada Padi, Kedelai, Kentang, Semangka."
+    },
+    {
+      "nama": "PETRONIL 75 WP",
+      "tipe": "Fungisida Protektif",
+      "bahan_aktif": "Klorotalonil 75%",
+      "target": "Penyakit Hawar Daun, Bercak Daun, Busuk Buah pada Kentang dan Cabai."
+    },
+    {
+      "nama": "SIDARAT 0,005 BB",
+      "tipe": "Rodentisida (Umpan Tikus)",
+      "bahan_aktif": "Brodifakum 0,005%",
+      "target": "Tikus sawah (Rattus argentiventer) dan Tikus belukar (Rattus tiomanicus)."
+    }
+  ],
+  "pupuk_subsidi_perikanan": {
+    "deskripsi": "Program subsidi pupuk untuk meningkatkan produktivitas pembudidaya ikan.",
+    "syarat_penerima": [
+      "Tergabung dalam Kelompok Pembudidaya Ikan (Pokdakan).",
+      "Aktif melakukan usaha pembenihan dan atau pembesaran ikan.",
+      "Terdaftar dalam kelompok tani tambak secara resmi di dinas perikanan setempat."
+    ],
+    "manfaat_pupuk": {
+      "Urea": "Mempercepat fotosintesis mikroalga (pakan alami).",
+      "Organik": "Meningkatkan kandungan organik di dasar tambak.",
+      "SP-36": "Mendukung pertumbuhan alga, menyeimbangkan nutrisi, dan memperkuat ketahanan ikan."
+    },
+    "komoditas_target": [
+      "Udang Windu",
+      "Ikan Nila",
+      "Udang Vaname",
+      "Ikan Mas",
+      "Ikan Bandeng",
+      "Ikan Gurame"
+    ]
+  },
+  "basis_pengetahuan_dosis_pupuk": [
+    {
+      "tanaman": "Tebu",
+      "dosis": {
+        "NPK_Phonska": "1225 kg/ha",
+        "Petroganik": "1000 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "43%",
+        "nilai": "+30 Ton/Ha",
+        "sebelum": "7 Ton/Ha",
+        "sesudah": "10 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Padi",
+      "dosis": {
+        "Urea": "225 kg/ha",
+        "NPK_Phonska": "300 kg/ha",
+        "Petroganik": "500 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "17%",
+        "nilai": "+1 Ton/Ha",
+        "sebelum": "6 Ton/Ha",
+        "sesudah": "7 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Cabai",
+      "dosis": {
+        "NPK_Phonska": "400 kg/ha",
+        "Petroganik": "1000 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "52%",
+        "nilai": "+4 Ton/Ha",
+        "sebelum": "8 Ton/Ha",
+        "sesudah": "12 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Bawang Merah dan bawang putih",
+      "dosis": {
+        "NPK_Phonska": "550 kg/ha",
+        "Petroganik": "1000 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "40%",
+        "nilai": "+4 Ton/Ha",
+        "sebelum": "10 Ton/Ha",
+        "sesudah": "14 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Jagung",
+      "dosis": {
+        "Urea": "250 kg/ha",
+        "NPK_Phonska": "350 kg/ha",
+        "Petroganik": "1000 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "60%",
+        "nilai": "+3 Ton/Ha",
+        "sebelum": "5 Ton/Ha",
+        "sesudah": "8 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Kopi",
+      "dosis": {
+        "NPK_Phonska": "875 kg/ha",
+        "Petroganik": "1000 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "40%",
+        "nilai": "+4 Ton/Ha",
+        "sebelum": "10 Ton/Ha",
+        "sesudah": "14 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Kakao",
+      "dosis": {
+        "NPK_Pelangi_Formula_Khusus": "625 kg/ha",
+        "Petroganik": "1000 kg/ha",
+        "Urea": "25 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "43%",
+        "nilai": "+3 Ton/Ha",
+        "sebelum": "7 Ton/Ha",
+        "sesudah": "10 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Ubi Kayu",
+      "dosis": {
+        "Urea": "200 kg/ha",
+        "NPK_Phonska": "350 kg/ha",
+        "Petroganik": "1000 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "60%",
+        "nilai": "+10 Ton/Ha",
+        "sebelum": "5 Ton/Ha",
+        "sesudah": "15 Ton/Ha"
+      }
+    },
+    {
+      "tanaman": "Kedelai",
+      "dosis": {
+        "NPK_Phonska": "225 kg/ha",
+        "Petroganik": "1000 kg/ha"
+      },
+      "peningkatan_hasil": {
+        "persentase": "52%",
+        "nilai": "+4 Ton/Ha",
+        "sebelum": "2 Ton/Ha",
+        "sesudah": "6 Ton/Ha"
+      }
+    }
+  ],
+  "referensi_harga_jual_output": {
+    "tanaman_pangan": {
+      "Cabai Rawit Merah": "Rp 38.000 / kg",
+      "Bawang Merah": "Rp 70.000 / kg",
+      "Gabah Kering Panen (GKP)": "Rp 6.300 / kg",
+      "Kedelai": "Rp 4.800 / kg",
+      "Ubi Kayu": "Rp 6.500 / kg"
+    },
+    "perkebunan_dan_industri": {
+      "Kakao": "Rp 105.000 / kg",
+      "Kopi Arabica": "Rp 65.000 / kg",
+      "Kopi Robusta": "Rp 28.000 / kg",
+      "Cengkeh": "Rp 98.000 / kg",
+      "Lada": "Rp 56.000 / kg",
+      "Tandan Buah Segar (TBS) Sawit": "Rp 3.200 / kg",
+      "Karet": "Rp 3.700 / kg",
+      "Tebu": "Rp 3.600 / kg"
+    },
+    "minyak_atsiri": {
+      "Minyak Nilam": "Rp 550.000 / liter"
+    }
+  },
+  "cultivationGuides": [
+    {
+      "crop": "Padi",
+      "steps": [
+        { "title": "Persiapan Lahan", "content": "Olah tanah hingga gembur. Berikan pupuk dasar Petroganik 500 kg/ha." },
+        { "title": "Pemupukan Awal (12 HST)", "content": "Berikan Urea 200 kg/ha untuk memacu pertumbuhan vegetatif." },
+        { "title": "Pemupukan Kedua (25 HST)", "content": "Berikan NPK Phonska 300 kg/ha untuk nutrisi lengkap." },
+        { "title": "Pengendalian Hama", "content": "Gunakan Sidabas 500 EC untuk walang sangit atau Fenosida 255 EC untuk hawar pelepah sesuai gejala." }
+      ]
+    },
+    {
+      "crop": "Jagung",
+      "steps": [
+        { "title": "Persiapan Lahan", "content": "Olah tanah dan berikan pupuk dasar Petroganik 1000 kg/ha." },
+        { "title": "Pemupukan Awal (7-10 HST)", "content": "Berikan pupuk Urea 250 kg/ha untuk pertumbuhan awal yang kuat." },
+        { "title": "Pemupukan Kedua (28-30 HST)", "content": "Berikan NPK Phonska 350 kg/ha untuk mendukung pembentukan tongkol." },
+        { "title": "Pengendalian Gulma", "content": "Gunakan herbisida sistemik seperti SIDAFOS 480 SL pada saat persiapan lahan untuk membersihkan gulma." }
+      ]
+    },
+    {
+      "crop": "Kakao",
+      "steps": [
+        { "title": "Pemupukan Tahunan", "content": "Berikan NPK Formula Khusus Kakao 625 kg/ha, Petroganik 1000 kg/ha, dan Urea 25 kg/ha setiap tahunnya." },
+        { "title": "Pemangkasan", "content": "Lakukan pemangkasan bentuk, pemeliharaan, dan produksi secara rutin untuk menjaga kesehatan dan produktivitas tanaman." },
+        { "title": "Pengendalian Penyakit", "content": "Gunakan fungisida seperti Sidazeb 80 WP untuk mengendalikan penyakit busuk buah (Phytophthora)." },
+        { "title": "Pengendalian Hama", "content": "Gunakan insektisida sistemik seperti SIDAFUR 3 GR untuk mengendalikan penggerek batang." }
+      ]
+    }
+  ]
+}

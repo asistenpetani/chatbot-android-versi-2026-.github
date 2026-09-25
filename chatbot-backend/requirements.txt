@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+Pillow
+google-generativeai
+pydantic
+google-cloud-secret-manager
+google-auth
+tenacity

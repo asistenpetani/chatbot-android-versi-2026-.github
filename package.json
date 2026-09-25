@@ -1,0 +1,25 @@
+{
+  "name": "my-unified-app-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplikasi monorepo dengan Yarn Workspaces",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:backend": "yarn workspace operation-space dev",
+    "start:frontend": "yarn workspace face-space start",
+    "dev": "concurrently \"yarn start:backend\" \"yarn start:frontend\""
+  },
+  "dependencies": {
+    "@genkit-ai/firebase": "^1.40.1",
+    "@google-cloud/storage": "^7.21.0",
+    "adm-zip": "^0.5.18",
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.12.0"
+  }
+}

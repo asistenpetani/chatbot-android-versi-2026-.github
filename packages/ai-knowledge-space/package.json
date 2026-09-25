@@ -1,0 +1,9 @@
+{
+  "name": "ai-knowledge-space",
+  "version": "1.0.0",
+  "description": "Instruksi sistem yang dapat digunakan kembali untuk AI",
+  "main": "system_prompts.js",
+  "scripts": {
+    "test": "echo 'Testing AI knowledge...'"
+  }
+}

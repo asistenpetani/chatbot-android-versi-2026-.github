@@ -1,0 +1,55 @@
+File JSON Digital Asset Links diperlukan jika Anda ingin menggunakan Link Aplikasi Android untuk mengarahkan pengguna web seluler ke aplikasi aspek
+
+
+{
+  "project_info": {
+    "project_number": "956692315956",
+    "project_id": "asistenpetani-ai-app",
+    "storage_bucket": "asistenpetani-ai-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956692315956:android:c11e6b7f2d8f523cceef61",
+        "android_client_info": {
+          "package_name": "com.asistenpetani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956692315956-rviidggm3c6oit36mm18vdvk3mlhtnrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asistenpetani",
+            "certificate_hash": "CA:2E:60:DF:88:BA:44:52:B2:C4:CA:D0:7B:C7:9E:C6:8B:AD:4B:77"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkXVke6HbyzFbCLnLBuKqm21GAGGjV_Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108738300538799694694",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.asistenpetani",
+      "sha256_cert_fingerprints":
+        ["C1:6C:DE:99:F8:2E:35:66:4A:1F:A0:D5:A6:39:B6:AD:7B:D8:8F:1C:DA:EA:7A:17:E8:01:70:91:DE:4C:92:DC"]
+    }
+  }
+]{"installed":{"client_id":"956692315956-ulavsgag68hun3tofvsbp3urk38tt2ab.apps.googleusercontent.com","project_id":"asistenpetani-ai-app","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs"}}

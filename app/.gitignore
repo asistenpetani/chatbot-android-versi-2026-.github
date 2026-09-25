@@ -1,0 +1,7 @@
+# ASPEK PROJECT - APP MODULE .GITIGNORE
+/build
+/secret.properties
+/local.properties
+/google-services.json
+/*.jks
+/*.keystore

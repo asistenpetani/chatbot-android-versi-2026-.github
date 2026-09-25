@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+google-generativeai
+Pillow
+python-multipart
+google-cloud-storage
+firebase-admin

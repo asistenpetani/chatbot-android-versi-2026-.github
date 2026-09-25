@@ -1,0 +1,44 @@
+steps:
+  # 1. BUILD: Membuat Docker image dengan tag unik (COMMIT_SHA) & tag latest
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'Build-Image'
+    args:
+      - 'build'
+      - '-t'
+      - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/aspek-repo/aspek-backend:$COMMIT_SHA'
+      - '-t'
+      - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/aspek-repo/aspek-backend:latest'
+      - '.'
+
+  # 2. PUSH: Mengirim image ke Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'Push-Image'
+    args:
+      - 'push'
+      - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/aspek-repo/aspek-backend'
+      - '--all-tags'
+
+  # 3. DEPLOY: Menjalankan container baru di Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    id: 'Deploy-to-Cloud-Run'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'aspek-service'
+      - '--image'
+      - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/aspek-repo/aspek-backend:$COMMIT_SHA'
+      - '--region'
+      - 'asia-southeast2'
+      - '--platform'
+      - 'managed'
+      - '--service-account'
+      # Gunakan Service Account spesifik sesuai prinsip IAM sebelumnya
+      - 'aspek-runtime-sa@$PROJECT_ID.iam.gserviceaccount.com' 
+      - '--port'
+      - '8080'
+
+# Konfigurasi tambahan agar eksekusi build lebih cepat
+options:
+  machineType: 'E2_HIGHCPU_8' # Mempercepat proses build untuk AI/Python
+  logging: CLOUD_LOGGING_ONLY

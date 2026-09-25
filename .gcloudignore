@@ -1,0 +1,16 @@
+.git
+.gitignore
+.gcloudignore
+node_modules/
+.env
+.env.*
+.idea/
+.gradle/
+build/
+app/build/
+*.jks
+*.keystore
+google-services.json
+app/google-services.json
+*.apk
+*.aab

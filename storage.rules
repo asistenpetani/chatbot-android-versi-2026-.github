@@ -1,0 +1,34 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Mengunci write langsung dari Client SDK karena sudah dialihkan via HMAC Signed URL di FastAPI Server
+    match /aspek_database/{allPaths=**} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Harus via FastAPI Server (Signed URL)
+    }
+
+    match /field_snapshots/{allPaths=**} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Harus via FastAPI Server (Signed URL)
+    }
+
+    match /users/{userId}/{allPaths=**} {
+      allow read: if isAuthenticated() && request.auth.uid == userId;
+      allow write: if isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // RAG Knowledge Base Storage Protection (ReadOnly for authenticated users, Write only via Backend)
+    match /rag_knowledge/{allPaths=**} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

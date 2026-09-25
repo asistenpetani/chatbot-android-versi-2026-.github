@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="i6gvYCEJC9oDzBk7SedZHQ-PQ1YTmRX5T31njx9bkEU" />
+    <title>ASPEK - Asisten Petani AI Cerdas Indonesia</title>
+    <style>
+        :root {
+            --primary: #1b4332;
+            --primary-light: #2d6a4f;
+            --secondary: #40916c;
+            --accent: #d8f3dc;
+            --amber-accent: #f4a261;
+            --text: #2d3142;
+            --background: #f8f9fa;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+        header p {
+            font-size: 1.25rem;
+            margin: 15px 0 0 0;
+            opacity: 0.9;
+        }
+        .main-container {
+            max-width: 1000px;
+            margin: -30px auto 60px auto;
+            padding: 0 20px;
+        }
+        .intro-card {
+            background-color: var(--card-bg);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .intro-card h2 {
+            color: var(--primary);
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+        .feature-card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            border-top: 5px solid var(--secondary);
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .feature-card p {
+            font-size: 0.95rem;
+            color: #5c5f75;
+            margin-bottom: 0;
+        }
+        .cta-section {
+            background: linear-gradient(135deg, var(--secondary), var(--primary-light));
+            color: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(27, 67, 50, 0.15);
+        }
+        .cta-section h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--amber-accent);
+            color: var(--primary);
+            padding: 14px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 15px;
+            box-shadow: 0 4px 10px rgba(244, 162, 97, 0.3);
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #f6b27e;
+            transform: scale(1.03);
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            border-top: 1px solid #e9ecef;
+            background-color: white;
+            margin-top: 60px;
+        }
+        footer a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ASPEK</h1>
+        <p>Asisten Petani Cerdas & Mitra Sukses Pertanian Indonesia</p>
+    </header>
+
+    <div class="main-container">
+        <div class="intro-card">
+            <h2>Selamat Datang di Portal Resmi ASPEK</h2>
+            <p>
+                <strong>ASPEK (Asisten Petani)</strong> adalah aplikasi cerdas berbasis kecerdasan buatan (AI) yang dirancang khusus untuk mendampingi para petani Indonesia dalam mengelola lahan secara modern, mendiagnosis penyakit tanaman secara presisi, serta mengoptimalkan hasil panen mereka.
+            </p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3><span class="icon">🤖</span> Konsultasi AI 24/7</h3>
+                <p>Ajukan pertanyaan kapan saja mengenai pemupukan, hama, penyakit tanaman, atau kendala lapangan lainnya, dan dapatkan jawaban cerdas serta solutif dari asisten virtual kami.</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="icon">🗺️</span> Peta Toko & Pembeli</h3>
+                <p>Temukan toko sarana produksi pertanian (saprotan) terdekat serta pembeli hasil panen berlisensi langsung dari peta interaktif di dalam aplikasi.</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="icon">📈</span> Pengelolaan Lahan & Profil</h3>
+                <p>Simpan detail lahan, luas area, dan jenis komoditas Anda untuk mendapatkan analisis serta sapaan personal sesuai adat bahasa daerah Anda.</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="icon">🔔</span> Pengingat & Cuaca Harian</h3>
+                <p>Dapatkan prediksi cuaca lokal yang akurat, jadwal pemupukan rutin, serta peringatan dini potensi hama langsung di genggaman Anda.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Mulai Transformasi Lahan Anda Hari Ini!</h2>
+            <p>Unduh aplikasi ASPEK secara gratis dan jadikan pertanian Anda lebih produktif, efisien, dan ramah lingkungan.</p>
+            <a href="#" class="btn">Unduh Aplikasi Sekarang</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ASPEK. Hak Cipta Dilindungi Undang-Undang.</p>
+        <p>
+            <a href="/privacy">Kebijakan Privasi</a> | 
+            <a href="https://asistenpetani-ai-app.web.app/privacy">Tautan Cadangan</a>
+        </p>
+    </footer>
+
+</body>
+</html>

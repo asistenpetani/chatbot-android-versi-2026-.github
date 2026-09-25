@@ -1,0 +1,12 @@
+<resources>
+    <string name="default_web_client_id" translatable="false">956692315956-i3180tjq5tv5e2bjf21mt2js0tk975t4.apps.googleusercontent.com</string>
+    <string name="android_client_id" translatable="false">956692315956-ulavsgag68hun3tofvsbp3urk38tt2ab.apps.googleusercontent.com</string>
+    <string name="app_name">Asisten petani kita</string>
+    <string name="attribution_location_label">Akses Lokasi Lahan Petani</string>
+    <string name="attribution_camera_label">Akses Foto Hara Daun Tanaman</string>
+    <string name="attribution_ads_label">Layanan Iklan Digital</string>
+    <string name="attribution_microphone_label">Akses Suara Asisten Petani</string>
+    <string name="attribution_billing_label">Layanan Pembayaran Google Play</string>
+    <string name="empty_string"></string>
+    <string name="recaptcha_site_key">6LePxOUrAAAAAEZqLWECnYG7wPVUj-8lTGDFA8NJ</string>
+</resources>

@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Fungsi bantuan untuk mengecek apakah user sudah login
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Fungsi bantuan untuk mengecek apakah user adalah pengguna premium
+    function isPremium() {
+      return isAuthenticated() && request.auth.token.premium == true;
+    }
+    
+    // Skenario 1: Pengguna Biasa Mengakses Data Profilnya Sendiri
+    // Aplikasi meminta data dari /profiles/pengguna123.
+    // Firebase memeriksa dari atas dan menemukan blok spesifik: match /profiles/{userId}.
+    // Firebase memeriksa syarat: Apakah pengguna login? Apakah pengguna UID == userId yang diminta?
+    // Jika BENAR, akses diberikan. Jika SALAH (misal UID berbeda atau belum login), akses DITOLAK (Permission Denied).
+    // Cara memperbaiki error Permission Denied: Pastikan pengguna sudah login dan UID-nya sesuai dengan ID dokumen profil yang diakses.
+    match /profiles/{userId} {
+      allow read, write: if isAuthenticated() && request.auth.uid == userId;
+      
+      // Mengizinkan akses ke sub-koleksi (seperti devices)
+      match /{document=**} {
+        allow read, write: if isAuthenticated() && request.auth.uid == userId;
+      }
+    }
+    
+    // Aturan untuk riwayat chat/analisa
+    // Skenario: Pengguna ingin melihat atau menyimpan riwayat chat-nya.
+    // Akses diberikan jika pengguna login dan 'userId' di dalam dokumen chat sama dengan UID pengguna.
+    match /chats/{chatId} {
+      // User hanya membaca chatnya sendiri
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      // Memisahkan aturan create, update, dan delete karena request.resource null pada saat delete
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update: if isAuthenticated() && resource.data.userId == request.auth.uid && request.resource.data.userId == request.auth.uid;
+      allow delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    // Aturan untuk data lahan (Premium Fields)
+    // Skenario: Pengguna mengakses data lahan mereka.
+    // Akses diberikan jika pengguna login dan 'userId' pada dokumen lahan sesuai dengan UID pengguna.
+    match /fields/{fieldId} {
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update: if isAuthenticated() && resource.data.userId == request.auth.uid && request.resource.data.userId == request.auth.uid;
+      allow delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    // Skenario Terakhir: Aturan default fallback
+    // Jika tidak ada aturan (match) di atas yang sesuai dengan request (misal mengakses koleksi /users_admin), 
+    // maka request akan jatuh ke blok ini.
+    // Aturan default: Tolak semua akses lainnya (if false). 
+    // Ini adalah jaring pengaman agar data tidak bocor.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

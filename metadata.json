@@ -1,0 +1,6 @@
+{
+  "name": "Asisten petani",
+  "description": "Asisten Petani Kita AI - Asisten pintar untuk petani indonesia",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

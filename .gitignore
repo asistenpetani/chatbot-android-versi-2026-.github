@@ -1,0 +1,55 @@
+# ASPEK PROJECT - MASTER INDUSTRY STANDARD .GITIGNORE (JETPACK + HILT)
+# Mematikan pelacakan file sampah, hasil generate, cache, dan data sensitif.
+# Copyright (c) 2026 PT BERTANI TEKNOLOGI INTELEGENSI. All Rights Reserved.
+
+# 1. Hasil Generate Hilt & Compose
+/build/
+**/build/
+.gradle/
+/kotlin/
+/captures/
+/cxx/
+/externalNativeBuild/
+
+# 2. File Konfigurasi IDE IntelliJ / Android Studio (.idea)
+.idea/
+*.iml
+.navigation/
+
+# 3. Kredensial & Keamanan (SANGAT KRITIKAL)
+*.jks
+*.keystore
+local.properties
+secret.properties
+app/secret.properties
+google-services.json
+app/google-services.json
+google-play-api-key.json
+adminsdk-*.json
+service-account*.json
+firebase-key*.json
+client_secret.json
+backend_cloud/service-account.json
+.env
+.env.local
+.env.*
+
+# 4. Berkas Hasil Kompilasi Aplikasi (Artifacts)
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# 5. Log & Data Sementara (Temporary Files)
+*.log
+.DS_Store
+Thumbs.db
+/captures/
+.cxx/
+
+# 6. Data Kasus / Dataset & Dokumen Mentah
+*.xlsx
+*.xls
+*.csv
+firebase-app-distribution-key.json!gradle/wrapper/gradle-wrapper.jar

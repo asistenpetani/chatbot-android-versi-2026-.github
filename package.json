@@ -17,7 +17,7 @@
     "@genkit-ai/firebase": "^1.40.1",
     "@google-cloud/storage": "^7.21.0",
     "adm-zip": "^0.5.18",
-    "concurrently": "^8.2.2"
+    "concurrently": "^10.0.5"
   },
   "devDependencies": {
     "firebase-tools": "^13.12.0"

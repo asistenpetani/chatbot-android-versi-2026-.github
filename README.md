@@ -1,4 +1,4 @@
-
+www
 ```markdown
 # 🌾 ASPEK — Asisten Petani Kita
 
@@ -268,4 +268,20 @@ chatbot-android-versi-2026/
     └── workflows/
 ```
 
-Intinya, contoh repository yang Anda kirim kuat pada **README yang menarik, struktur yang mudah dipindai, badge, daftar isi, kontribusi, dukungan, dan disclaimer**. ASPEK dapat menerapkan pola tersebut, tetapi harus menggunakan konten, gambar, lisensi, dan data yang benar-benar milik ASPEK sendiri.
+> Dukungan sukarela untuk pengembangan ASPEK dapat diberikan melalui PayPal:  
+> https://paypal.me/indraoktawan
+> proxy payment via gmail: indra.oktawan@gmail.com
+> Dana yang diterima akan digunakan untuk pengujian aplikasi, pengembangan fitur, dokumentasi, dan operasional proyek sesuai transparansi yang diumumkan. Dukungan bersifat sukarela dan tidak menjamin kepemilikan saham, lisensi, atau hasil investasi.
+
+Untuk `.github/FUNDING.yml`, PayPal tidak tersedia sebagai platform pendanaan bawaan GitHub. Gunakan tautan di bagian `custom`:
+
+```yaml
+custom:
+  - https://paypal.me/indraoktawan
+```
+
+Jika GitHub Sponsors Anda sudah aktif dan disetujui, tambahkan juga:
+
+```yaml
+github: indraoktawan
+```

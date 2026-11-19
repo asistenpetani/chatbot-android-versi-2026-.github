@@ -1,8 +1,11 @@
 # End-User License Agreement (EULA) & Proprietary SaaS Terms
 
 **Effective Date:** August 1, 2026
-**Owner & Licensor:** Indra Oktawan (indra.oktawan@gmail.com)
-**Product:** Asisten Petani AI ("Software")
+Pemilik dan pengelola PT: Indra Oktawan
+Perusahaan: PT. BERTANI TEKNOLOGI INTELEGENSI
+Nama produk: ASPEK – Asisten Petani Kita
+Pihak licensor: PT. BERTANI TEKNOLOGI INTELEGENSI
+Kontak: indra.oktawan@gmail.com
 
 ## 1. PROPRIETARY SOFTWARE-AS-A-SERVICE (SaaS)
 This Software is provided under a Proprietary SaaS model. You are granted a limited, non-exclusive, non-transferable right to access and use the Software solely for its intended agricultural assistance purposes. You do not own the Software. All rights, title, and interest in the Software remain exclusively with Indra Oktawan.

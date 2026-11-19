@@ -177,11 +177,6 @@ Contoh:
 - [ ] Evaluasi kualitas jawaban
 - [ ] Perbaikan berdasarkan umpan balik
 ```
-
-Gunakan checklist berdasarkan kondisi nyata, bukan rencana yang belum dikerjakan.
-
-## 9. Tambahkan topik repository
-
 Untuk meningkatkan
 
 ```text
@@ -196,14 +191,6 @@ firebase
 ```
 
 lisensi
-
-Saat ini proyek Anda menggunakan lisensi proprietary. Itu boleh, tetapi harus konsisten:
-
-- jika ingin mencari **sponsor open source**, gunakan lisensi open source yang sesuai;
-- jika ingin melindungi kode sebagai produk komersial, pertahankan proprietary dan tawarkan sponsor/pilot/lisensi komersial;
-- jika ingin kompromi, pisahkan komponen:
-  - dokumentasi atau SDK dengan lisensi terbuka;
-  - backend, prompt, dan basis pengetahuan dengan lisensi komersial.
 
 ## Struktur
 

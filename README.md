@@ -238,9 +238,6 @@ Untuk `.github/FUNDING.yml`, PayPal tidak tersedia sebagai platform pendanaan ba
 custom:
   - https://paypal.me/indraoktawan
 ```
-
-Jika GitHub Sponsors Anda sudah aktif dan disetujui, tambahkan juga:
-
 ```yaml
 github: indraoktawan
 ```

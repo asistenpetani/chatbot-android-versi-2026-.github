@@ -22,11 +22,7 @@ assets/
 └── architecture.svg
 ```
 
-Jangan mengambil banner, screenshot, atau logo dari repository contoh tanpa izin.
-
-## 2. Susun daftar isi yang jelas
-
-Contoh struktur:
+struktur:
 
 ```markdown
 ## Daftar Isi
@@ -43,15 +39,12 @@ Contoh struktur:
 - [Lisensi](#lisensi)
 - [Batasan AI](#batasan-ai)
 ```
-
-README sekarang terlalu dominan berisi detail cloud dan arsitektur. Detail teknis tetap boleh ada, tetapi letakkan setelah informasi yang paling penting bagi pengguna dan sponsor.
-
-## 3. Tampilkan fitur dalam bentuk ringkas
+ 3. Tampilkan fitur dalam bentuk ringkas
 
 Contoh:
 
 ```markdown
-## Fitur
+ Fitur
 
 - 🤖 Konsultasi pertanian berbasis AI
 - 🌱 Identifikasi awal gejala hama dan penyakit tanaman
@@ -61,8 +54,6 @@ Contoh:
 - 📱 Aplikasi Android
 ```
 
-Hanya tuliskan fitur yang benar-benar sudah tersedia. Beri tanda status:
-
 | Fitur | Status |
 |---|---|
 | Login Google | Tersedia |
@@ -70,12 +61,6 @@ Hanya tuliskan fitur yang benar-benar sudah tersedia. Beri tanda status:
 | Diagnosa gambar | Dalam pengujian |
 | Cuaca | Direncanakan |
 | Harga pasar | Direncanakan |
-
-Ini lebih dipercaya daripada menyatakan semua fitur sudah siap.
-
-## 4. Tambahkan demo yang bisa diverifikasi
-
-Repo contoh tersebut menarik karena pembaca langsung memahami kegunaannya. Untuk ASPEK, tambahkan:
 
 - GIF atau video singkat;
 - screenshot aplikasi;
@@ -95,14 +80,10 @@ Contoh:
 4. Masukkan komoditas dan kondisi tanaman.
 5. Tinjau rekomendasi awal.
 
-Demo: [Lihat video demo](URL_DEMO)
+Demo: [Lihat video demo](YouTube https://youtube.com/@nama-kita?si=UCy6z0JXfJd5DE5O)
 ```
 
-Jangan menyediakan APK yang belum ditandatangani atau file yang berisi kredensial produksi.
-
-## 5. Pisahkan dokumentasi teknis
-
-Gunakan struktur:
+ struktur:
 
 ```text
 docs/
@@ -114,7 +95,7 @@ docs/
 └── testing.md
 ```
 
-README cukup menjelaskan arsitektur secara singkat:
+README arsitektur:
 
 ```markdown
 ## Arsitektur
@@ -131,18 +112,12 @@ ASPEK terdiri dari:
 Detail penerapan tersedia di [docs/architecture.md](docs/architecture.md).
 ```
 
-Hapus atau pindahkan dari README publik:
-
 - project number;
 - account ID Play Console;
 - nama bucket produksi;
 - detail IAM;
 - perintah deployment internal;
-- alamat email pribadi jika tidak diperlukan.
-
-## 6. Buat kontribusi terlihat profesional
-
-Tambahkan `CONTRIBUTING.md`:
+`CONTRIBUTING.md`:
 
 ```markdown
 # Panduan Kontribusi
@@ -161,7 +136,7 @@ Mohon jangan mengirim:
 - data pribadi pengguna.
 ```
 
-Tambahkan pula template:
+Tambahkan template:
 
 ```text
 .github/
@@ -172,29 +147,15 @@ Tambahkan pula template:
 ├── FUNDING.yml
 └── workflows/
 ```
-
-## 7. Perbaiki halaman sponsor
-
-Gunakan format valid hanya jika GitHub Sponsors sudah aktif:
+sponsor
+GitHub Sponsors sudah aktif:
 
 ```yaml
 github: indraoktawan
 custom:
-  - https://alamat-resmi-dukungan-anda.example
+  - https://alamat-resmi-dukungan 
 ```
-
-Jangan menaruh:
-
-- nomor PIN;
-- OTP;
-- NIK;
-- nomor rekening;
-- nomor telepon pribadi;
-- tautan dokumen Google yang bisa diedit publik.
-
-Tombol sponsor tidak menjamin dana masuk. Sponsor perlu melihat proyek yang jelas, demo nyata, roadmap, dan laporan perkembangan.
-
-## 8. Tambahkan roadmap
+roadmap
 
 Contoh:
 
@@ -221,7 +182,7 @@ Gunakan checklist berdasarkan kondisi nyata, bukan rencana yang belum dikerjakan
 
 ## 9. Tambahkan topik repository
 
-Untuk meningkatkan penemuan repo, gunakan topik yang relevan:
+Untuk meningkatkan
 
 ```text
 agriculture
@@ -234,9 +195,7 @@ indonesia
 firebase
 ```
 
-Jangan memakai `open-source` jika lisensi Anda masih melarang penggunaan dan redistribusi. Repo publik tidak otomatis berarti open source.
-
-## 10. Tentukan strategi lisensi
+lisensi
 
 Saat ini proyek Anda menggunakan lisensi proprietary. Itu boleh, tetapi harus konsisten:
 
@@ -246,7 +205,7 @@ Saat ini proyek Anda menggunakan lisensi proprietary. Itu boleh, tetapi harus ko
   - dokumentasi atau SDK dengan lisensi terbuka;
   - backend, prompt, dan basis pengetahuan dengan lisensi komersial.
 
-## Struktur yang saya sarankan
+## Struktur
 
 ```text
 chatbot-android-versi-2026/

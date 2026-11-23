@@ -24,7 +24,7 @@ jobs:
 
       # 3. Optimasi Cache Gradle (Potongan Kode Anda)
       - name: 🐘 Setup Gradle com.asistenpetani
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v6
         with:
           gradle-version: wrapper
           # Mengaktifkan cache build secara otomatis untuk cabang non-main
